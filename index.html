@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal website of Chenglong Wang, Quantitative Algorithm Engineer working on quantitative finance, reinforcement learning, and game AI.">
+  <title>Chenglong Wang</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <div class="sidebar-brand">Menu</div>
+        <h1 class="sidebar-name">Chenglong Wang</h1>
+        <p class="sidebar-role">Quantitative Algorithm Engineer</p>
+        <p class="sidebar-meta">Ubiquant Investment Co., Ltd.<br>Beijing, China</p>
+        <nav class="sidebar-nav" aria-label="Section navigation">
+          <a href="#home">Home</a>
+          <a href="#highlights">Highlights</a>
+          <a href="#experience">Experience</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#education">Education</a>
+          <a href="#awards">Awards</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="sidebar-links">
+          <a href="assets/CV_WangChenglong.pdf" target="_blank" rel="noopener">Resume</a>
+          <a href="https://github.com/clwang1998" target="_blank" rel="noopener">GitHub</a>
+          <a href="mailto:jackiewangchenglong@gmail.com">Email</a>
+        </div>
+      </div>
+    </aside>
+
+    <main class="content">
+      <section id="home" class="hero">
+        <div class="hero-photo">
+          <img src="assets/avatar.jpg" alt="Chenglong Wang">
+        </div>
+        <div class="hero-copy">
+          <div class="section-topline">Home</div>
+          <h2>Chenglong Wang</h2>
+          <p class="lead">
+            I am a quantitative algorithm engineer with a background spanning physics, computer
+            science, reinforcement learning, imperfect-information games, and quantitative finance.
+            My recent work focuses on alpha modeling, option pricing, and data-driven execution
+            strategies for Chinese financial markets.
+          </p>
+          <p>
+            Before joining Ubiquant Investment, I studied at the University of Chinese Academy of
+            Sciences and Xi'an Jiaotong University, and worked on game AI, dialogue systems, and
+            computer vision research at CAS, Alibaba, and SenseTime Research.
+          </p>
+          <div class="hero-tags" aria-label="Research interests">
+            <span>Quantitative Finance</span>
+            <span>Reinforcement Learning</span>
+            <span>Game AI</span>
+            <span>Graph Learning</span>
+            <span>Computational Imaging</span>
+            <span>Applied Optimization</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button-primary" href="assets/CV_WangChenglong.pdf" target="_blank" rel="noopener">View Resume</a>
+            <a class="button-secondary" href="https://github.com/clwang1998" target="_blank" rel="noopener">GitHub Profile</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="highlights" class="section-block">
+        <div class="section-topline">Highlights</div>
+        <h2>Selected Milestones</h2>
+        <div class="stats-grid">
+          <article class="stat-card">
+            <div class="stat-number">8 / 2893</div>
+            <p>Kaggle Ubiquant Market Prediction ranking built on graph-based stock representation and cross-sectional alpha modeling.</p>
+          </article>
+          <article class="stat-card">
+            <div class="stat-number">54.4%</div>
+            <p>Win rate against DouZero after combining Deep Monte Carlo with simulated annealing for Doudizhu.</p>
+          </article>
+          <article class="stat-card">
+            <div class="stat-number">5M+</div>
+            <p>Daily Taobao customer-service queries served by a deployed knowledge-augmented dialogue system.</p>
+          </article>
+          <article class="stat-card">
+            <div class="stat-number">CN 110019715 B</div>
+            <p>Chinese invention patent issued for response determination in knowledge-augmented dialogue systems.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section-block">
+        <div class="section-topline">Experience</div>
+        <h2>Work Experience & Internships</h2>
+
+        <article class="entry">
+          <div class="entry-head">
+            <div>
+              <h3>Ubiquant Investment Co., Ltd.</h3>
+              <p class="entry-role">Quantitative Algorithm Engineer</p>
+            </div>
+            <div class="entry-time">2022 – Present</div>
+          </div>
+          <ul>
+            <li>Built multi-factor alpha pipelines that combine 200+ engineered features with Graph Attention Network embeddings for 4,000+ A-share stocks.</li>
+            <li>Applied convex optimization and Lagrange multiplier techniques to portfolio construction under transaction cost penalties and position constraints.</li>
+            <li>Developed a Monte Carlo engine for Asian option pricing with variance-reduction techniques, reducing pricing error by 22% versus a Black-Scholes benchmark.</li>
+            <li>Designed PPO, SAC, and offline Decision Transformer workflows for intraday futures execution, improving risk-adjusted PnL and reducing slippage and transaction costs.</li>
+          </ul>
+        </article>
+
+        <article class="entry">
+          <div class="entry-head">
+            <div>
+              <h3>Alibaba Group, Taobao BU</h3>
+              <p class="entry-role">Intern, Automated Dialogue Systems</p>
+            </div>
+            <div class="entry-time">May 2021 – Sep. 2021</div>
+          </div>
+          <ul>
+            <li>Designed a knowledge-base-augmented response framework combining TF-IDF, BM25, and BERT-based semantic matching.</li>
+            <li>Improved system accuracy by 23% over rule-based baselines and supported deployment at Taobao customer-service scale.</li>
+            <li>Contributed to the work later granted Chinese invention patent CN 110019715 B.</li>
+          </ul>
+        </article>
+
+        <article class="entry">
+          <div class="entry-head">
+            <div>
+              <h3>SenseTime Research</h3>
+              <p class="entry-role">Intern, Computer Vision Research</p>
+            </div>
+            <div class="entry-time">Jul. 2019 – Feb. 2020</div>
+          </div>
+          <ul>
+            <li>Proposed incremental hint learning for compressed face-recognition models to reduce out-of-distribution degradation.</li>
+            <li>Supported a team that later reached the top position in ICCV 2021 MFR and the NIST FRVT leaderboard.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="research" class="section-block">
+        <div class="section-topline">Research</div>
+        <h2>Research Experience</h2>
+
+        <article class="entry">
+          <div class="entry-head">
+            <div>
+              <h3>Institute of Automation, Chinese Academy of Sciences</h3>
+              <p class="entry-role">Advised by Prof. Junliang Xing</p>
+            </div>
+            <div class="entry-time">2020 – 2022</div>
+          </div>
+          <ul>
+            <li>Studied imperfect-information games and approximate Nash equilibrium methods for Doudizhu.</li>
+            <li>Integrated simulated annealing with counterfactual regret minimization to improve regret-value convergence.</li>
+            <li>Combined Deep Monte Carlo, residual networks, prioritized sampling, and multi-agent learning to achieve championship-level gameplay.</li>
+            <li>Extended the framework toward adversarial team decentralized partially observable stochastic games, with ongoing manuscript preparation.</li>
+          </ul>
+        </article>
+
+        <article class="entry">
+          <div class="entry-head">
+            <div>
+              <h3>Key Laboratory for Quantum Optics and Fine Mechanics, CAS</h3>
+              <p class="entry-role">Advised by Prof. Wenlin Gong</p>
+            </div>
+            <div class="entry-time">2017 – 2020</div>
+          </div>
+          <ul>
+            <li>Worked on computational ghost imaging, sparsity-constrained reconstruction, and super-resolution imaging under unstable illumination.</li>
+            <li>Developed algorithms for color ghost imaging and real-time correction of energy fluctuation effects.</li>
+          </ul>
+        </article>
+
+        <article class="entry">
+          <div class="entry-head">
+            <div>
+              <h3>State Key Laboratory of Multiphase Flow in Power Engineering, XJTU</h3>
+              <p class="entry-role">Advised by Prof. Guanghui Su</p>
+            </div>
+            <div class="entry-time">2015 – 2017</div>
+          </div>
+          <ul>
+            <li>Performed coupled FEM/FDM simulations for heat-pipe startup and thermal safety analysis in reactor systems.</li>
+            <li>Validated startup dynamics with Cotter's limit theory for space-reactor thermal radiator applications.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="publications" class="section-block">
+        <div class="section-topline">Publications</div>
+        <h2>Selected Publications</h2>
+        <ol class="publication-list">
+          <li>C. Wang, W. Gong, et al. “Influence of Receiving Numerical Aperture and Rough Target Size on Ghost Imaging via Sparsity Constraint.” <em>Chinese Laser</em>, 2019.</li>
+          <li>P. Wang, L. Wei, C. Wang, et al. “Super-resolution imaging via sparsity constraint and sparse speckle illumination.” <em>Chinese Physics B</em>, 2018.</li>
+          <li>P. Wang, C. Wang, et al. “Color ghost imaging via sparsity constraint and non-local self-similarity.” <em>Chinese Optics Letters</em>, 2021.</li>
+          <li>X. Mei, C. Wang, et al. “Influence of the source's energy fluctuation on computational ghost imaging and effective correction approaches.” <em>Chinese Optics Letters</em>, 2020.</li>
+          <li>Wang Chenglong, Hu Lingwen, Qiu Suizheng, Su Guanghui, et al. “Uncertainty Analysis of Transportable Fluoride-Salt-Cooled High Temperature Reactor (TFHR).” <em>Nuclear Power Engineering</em>, 2017.</li>
+          <li>Zhang Wenwen, Wang Chenglong, et al. “Thermal Safety Analysis of New Type Heat Pipe Reactor Core.” <em>Atomic Energy Science and Technology</em>, 2017.</li>
+        </ol>
+      </section>
+
+      <section id="education" class="section-block">
+        <div class="section-topline">Education</div>
+        <h2>Academic Background</h2>
+        <div class="entry">
+          <div class="entry-head">
+            <div>
+              <h3>University of Chinese Academy of Sciences</h3>
+              <p class="entry-role">M.S. in Computer Science, exam-free postgraduate recommendation</p>
+            </div>
+            <div class="entry-time">2019 – 2022</div>
+          </div>
+          <p>Thesis: <em>Adaptive Doudizhu Algorithm Based on Deep Monte Carlo and Simulated Annealing</em></p>
+        </div>
+        <div class="entry">
+          <div class="entry-head">
+            <div>
+              <h3>Xi'an Jiaotong University, Qian Xuesen Honors College</h3>
+              <p class="entry-role">B.S. in Physics, minor in Mathematics</p>
+            </div>
+            <div class="entry-time">2015 – 2019</div>
+          </div>
+          <p>Young Gifted Program. GPA: 88.62/100, First-Class Honors.</p>
+        </div>
+        <div class="entry">
+          <div class="entry-head">
+            <div>
+              <h3>University of Science and Technology of China</h3>
+              <p class="entry-role">Visiting Studentship</p>
+            </div>
+            <div class="entry-time">2017 – 2018</div>
+          </div>
+          <p>Research in the Key Laboratory for Quantum Optics and Fine Mechanics, Chinese Academy of Sciences.</p>
+        </div>
+      </section>
+
+      <section id="awards" class="section-block">
+        <div class="section-topline">Awards</div>
+        <h2>Honors & Recognition</h2>
+        <div class="awards-grid">
+          <div class="award-item">Second Prize, Chinese Physics Olympiad (2015)</div>
+          <div class="award-item">First Prize, China Undergraduate Physics Tournament (2016)</div>
+          <div class="award-item">First Prize, Mathematics Competition of Chinese College Students (2016)</div>
+          <div class="award-item">First Prize, China Undergraduate Mathematical Contest in Modeling (2017)</div>
+          <div class="award-item">National Scholarship, Xi'an Jiaotong University (2019)</div>
+          <div class="award-item">Champion, China Computer Game Championship in Doudizhu & Mahjong (2022)</div>
+          <div class="award-item">Outstanding Master's Thesis (2022)</div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-block">
+        <div class="section-topline">Contact</div>
+        <h2>Get in Touch</h2>
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:jackiewangchenglong@gmail.com">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">jackiewangchenglong@gmail.com</span>
+          </a>
+          <a class="contact-card" href="https://github.com/clwang1998" target="_blank" rel="noopener">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/clwang1998</span>
+          </a>
+          <div class="contact-card contact-static">
+            <span class="contact-label">Current Focus</span>
+            <span class="contact-value">Quant research, RL for trading, and game-theoretic decision systems</span>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <p>Last updated on May 6, 2026. Built for GitHub Pages.</p>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
